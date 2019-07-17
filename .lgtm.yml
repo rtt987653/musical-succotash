@@ -1,0 +1,6 @@
+extraction:
+  python:
+    after_prepare:    
+      - whoami
+      - pwd
+      - find ../..
